@@ -72,7 +72,7 @@
                         android:textSize="20sp"/>
 
                 </LinearLayout>
-
+                
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -125,5 +125,111 @@
         </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/email_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fakhrizain9@gmail.com"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/phone_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="087884984112"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/school_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMKN 26 Jakarta"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/app_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sistem Informatika"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Show Project"
+        android:backgroundTint="@color/startblue"
+        android:textColor="@color/white"/>
+
+    
 </LinearLayout>
