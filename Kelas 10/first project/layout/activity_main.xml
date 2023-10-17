@@ -15,7 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="350dp"
-            android:background="@drawable/gradientbg"
+            android:background="@color/startblue"
             android:orientation="vertical">
 
             <ImageView
@@ -231,5 +231,4 @@
         android:backgroundTint="@color/startblue"
         android:textColor="@color/white"/>
 
-    
 </LinearLayout>
