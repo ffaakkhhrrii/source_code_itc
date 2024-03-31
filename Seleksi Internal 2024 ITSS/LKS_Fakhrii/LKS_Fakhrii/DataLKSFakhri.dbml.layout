@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.125" name="DataLKSFakhri">
+  <DataContextMoniker Name="/DataLKSFakhriDataContext" />
+  <nestedChildShapes>
+    <classShape Id="44116e73-762c-4f57-b7ae-b05b67f06290" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/DataLKSFakhriDataContext/Brand" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9c01b8d-8306-4f17-8216-98190ba61cbf" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="251dd634-f430-41cd-8362-902a33a7096c" absoluteBounds="6.25, 4, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DataLKSFakhriDataContext/TransactionHeader" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21af39d3-7f65-46c1-add1-ad243608f102" absoluteBounds="6.265, 4.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5bf4c773-0538-44c5-a1ee-bfe9c2cf4a7b" absoluteBounds="3.5, 3.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataLKSFakhriDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="714f7146-63d8-414e-820c-1b33c6792051" absoluteBounds="3.515, 4.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3bb0d32-67f1-4624-8549-40a182786b48" absoluteBounds="3.5, 7.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataLKSFakhriDataContext/Member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="623edf08-d7eb-4a11-90ed-2d156721c3b4" absoluteBounds="3.515, 7.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8dd7ae3a-d61a-4709-bf23-a993811417b7" absoluteBounds="3.5, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/DataLKSFakhriDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19736f2b-0b22-4307-8e32-ea7a39dee619" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9ca423c-9094-465b-9845-09a70b76ee16" absoluteBounds="0.75, 4.375, 2, 1.1939925130208326">
+      <DataClassMoniker Name="/DataLKSFakhriDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d5d2605a-f3cc-44cb-aa59-61c71f838597" absoluteBounds="0.765, 4.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b60126a-b001-47b8-889a-67748316ff8b" absoluteBounds="6.25, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/DataLKSFakhriDataContext/TransactionDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e838782-a369-4a7a-aa63-6112f1f749fe" absoluteBounds="6.265, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 4.98159912109375); (6.25 : 4.98159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLKSFakhriDataContext/Employee/Employee_TransactionHeader" />
+      <nodes>
+        <classShapeMoniker Id="5bf4c773-0538-44c5-a1ee-bfe9c2cf4a7b" />
+        <classShapeMoniker Id="251dd634-f430-41cd-8362-902a33a7096c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.03929768880208); (7.25 : 8.03929768880208); (7.25 : 5.9631982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLKSFakhriDataContext/Member/Member_TransactionHeader" />
+      <nodes>
+        <classShapeMoniker Id="a3bb0d32-67f1-4624-8549-40a182786b48" />
+        <classShapeMoniker Id="251dd634-f430-41cd-8362-902a33a7096c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLKSFakhriDataContext/Brand/Brand_Product" />
+      <nodes>
+        <classShapeMoniker Id="44116e73-762c-4f57-b7ae-b05b67f06290" />
+        <classShapeMoniker Id="8dd7ae3a-d61a-4709-bf23-a993811417b7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.97199625651042); (3.5 : 4.97199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLKSFakhriDataContext/Role/Role_Employee" />
+      <nodes>
+        <classShapeMoniker Id="e9ca423c-9094-465b-9845-09a70b76ee16" />
+        <classShapeMoniker Id="5bf4c773-0538-44c5-a1ee-bfe9c2cf4a7b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.76044840494792); (6.25 : 1.76044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLKSFakhriDataContext/Product/Product_TransactionDetail" />
+      <nodes>
+        <classShapeMoniker Id="8dd7ae3a-d61a-4709-bf23-a993811417b7" />
+        <classShapeMoniker Id="2b60126a-b001-47b8-889a-67748316ff8b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
